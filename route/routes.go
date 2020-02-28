@@ -5,8 +5,8 @@ import (
 	"net/http"
 )
 
-func InitializeRouter(router *gin.Engine)  {
-	router.GET("/" , showIndexPage)
+func InitializeRouter(router *gin.Engine) {
+	router.GET("/", showIndexPage)
 }
 
 func showIndexPage(context *gin.Context) {
